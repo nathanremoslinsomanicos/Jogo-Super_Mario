@@ -26,8 +26,8 @@ const jump = () => {
             mario.style.marginLeft = "50px";
 
             clearInvertaval(loop);
-
-        },10);
+        }
+    },10);
         
 document.addEventListener("keydown",jump);
  

@@ -29,5 +29,5 @@ const jump = () => {
 
         },10);
         
-document.addEventListener("W",jump);
+document.addEventListener("keydown",jump);
  

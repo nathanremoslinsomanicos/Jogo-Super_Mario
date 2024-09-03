@@ -51,10 +51,10 @@ buttom {
     z-index: 1;
 }
 
-    buttom:hover {
-        border: 2px solid green;
-        background: none;
-        color: green;
+buttom:hover {
+    border: 2px solid green;
+    background: none;
+    color: green;
 }
 
 buttom.start {
@@ -71,6 +71,13 @@ buttom.start {
     position: fixed;
     top: 0;
     left: 0;
+}
+
+.game-over h1 {
+    font-size: 3rem;
+    color: red;
+    text-align: center;
+    margin-top: 15rem;
 }
 
 

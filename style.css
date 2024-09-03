@@ -51,6 +51,29 @@ buttom {
     z-index: 1;
 }
 
+    buttom:hover {
+        border: 2px solid green;
+        background: none;
+        color: green;
+}
+
+buttom.start {
+    display: block;
+}
+
+.game-over {
+    width: 100%;
+    height: 100vh;
+    background: red;
+    alig-items: center;
+    justify-content: center;
+    flex_direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
 @keyframes pipe-animation {
     from {
         right: -80px;

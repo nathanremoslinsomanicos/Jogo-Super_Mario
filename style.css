@@ -37,7 +37,7 @@
     animation: clouds-animation 20s infinite linear;
 }
 
-buttom {
+button {
     background: green;
     color: white;
     font-weight: bold;
@@ -51,13 +51,13 @@ buttom {
     z-index: 1;
 }
 
-buttom:hover {
+button:hover {
     border: 2px solid green;
     background: none;
     color: green;
 }
 
-buttom.start {
+button.start {
     display: block;
 }
 

@@ -45,8 +45,8 @@ buttom {
     border: none;
     padding: 1rem;
     position: absolute;
-    right: 50VW;
-    top: 50VW;
+    right: 50vw;
+    top: 50vw;
     cursor: pointer;
     z-index: 1;
 }

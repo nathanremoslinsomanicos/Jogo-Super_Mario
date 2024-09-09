@@ -71,7 +71,7 @@ button.start {
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
+    display: flex;
 }
 
 .game-over h1 {

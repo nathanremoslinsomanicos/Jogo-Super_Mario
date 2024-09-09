@@ -25,7 +25,7 @@ const jump = () => {
             mario.style.width = "75px";
             mario.style.marginLeft = "50px";
 
-            clearInvertaval(loop);
+            clearInterval(loop);
         }
     },10);
         

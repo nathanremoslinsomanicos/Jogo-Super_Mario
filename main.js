@@ -1,6 +1,5 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
-const game-over = document.querySelector(".game-over").style.display = 'flex';
 
 function jump() {
     mario.classList.add("jump");

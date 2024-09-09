@@ -1,13 +1,14 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
+const game-over = document.querySelector(".game-over").style.display = 'flex';
 
-const jump = () => {
+function jump() {
     mario.classList.add("jump");
 
     setTimeout(() => {
-        mario.classList.remove("jump")
-    } 
-    ,500);
+        mario.classList.remove("jump");
+    },
+        500);
 }
 
     const loop = setInterval (() => {

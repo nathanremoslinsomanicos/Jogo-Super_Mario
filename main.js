@@ -3,7 +3,10 @@ const pipe = document.querySelector(".pipe");
 const startButton = document.querySelector(".start");
 const gaveOverScream = document.querySelector(".game-over");
 
-let gameStart = false;
+AudioStart = new Audio"(./sound/audio_theme.mp3");
+const gameOverSound = new Audio("./sound/audio_gameover.mp3");
+
+let gameStarted = false;
 
 const starGame = () => {
     gameStarted = true;
@@ -17,12 +20,14 @@ const starGame = () => {
 }
 
 const jump = () => {
+    if(gameStarted) {
     mario.classList.add("jump");
 
     setTimeout(() => {
         mario.classList.remove("jump")
     } 
     ,500);
+}
 }
 
     const loop = setInterval (() => {

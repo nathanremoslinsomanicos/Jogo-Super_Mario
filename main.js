@@ -8,7 +8,7 @@ const gameOverSound = new Audio("./sound/audio_gameover.mp3");
 
 let gameStarted = false;
 
-const starGame = () => {
+const startGame = () => {
     gameStarted = true;
     audioStart.play ()
     pipe.style.animation = "pipe-animation 1.5s infinite linear";

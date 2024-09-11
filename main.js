@@ -46,10 +46,16 @@ const jump = () => {
             mario.src = "./img/game-over.png";
             mario.style.width = "75px";
             mario.style.marginLeft = "50px";
+            audioStart.pause();
+
+            gameOverSound.play();
             
+
             clearInterval(loop);
-        }
-    },10);
+            gameOverScreen.style.display = "flex";
         
-document.addEventListener("keydown",jump);
+    }
+}, 10);
+        
+document.addEventListener("keydown", jump);
  

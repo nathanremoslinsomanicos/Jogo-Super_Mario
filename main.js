@@ -10,13 +10,14 @@ let gameStarted = false;
 
 const starGame = () => {
     gameStarted = true;
-
+    audioStart.play ()
     pipe.style.animation = "pipe-animation 1.5s infinite linear";
     
     startButton.style.display = "none";
     mario.style.opacity = "1";
     pipe.style.opacity = "1";
     clouds.style.opacity = "1";
+
 }
 
 const jump = () => {

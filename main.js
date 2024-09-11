@@ -11,6 +11,7 @@ let gameStarted = false;
 const startGame = () => {
     gameStarted = true;
     audioStart.play ()
+
     pipe.style.animation = "pipe-animation 1.5s infinite linear";
     
     startButton.style.display = "none";
@@ -20,15 +21,15 @@ const startGame = () => {
 
 }
 
+
 const jump = () => {
     if(gameStarted) {
     mario.classList.add("jump");
 
     setTimeout(() => {
         mario.classList.remove("jump")
-    } 
-    ,500);
-}
+     }, 500);
+    }
 }
 
     const loop = setInterval (() => {

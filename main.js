@@ -1,7 +1,7 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
 const startButton = document.querySelector(".start");
-const gaveOverScream = document.querySelector(".game-over");
+const gameOverScream = document.querySelector(".game-over");
 
 audioStart = new Audio("./sound/audio_theme.mp3");
 const gameOverSound = new Audio("./sound/audio_gameover.mp3");

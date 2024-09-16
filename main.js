@@ -59,3 +59,7 @@ const jump = () => {
         
 document.addEventListener("keydown", jump);
  
+const restaryGame = () => {
+
+    window.location.reloud();
+}

@@ -1,6 +1,6 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
-const novem = document.querySelector(".nuvem")
+const novem = document.querySelector(".nuvem");
 const startButton = document.querySelector(".start");
 const gameOverScream = document.querySelector(".game-over");
 
@@ -21,6 +21,7 @@ const startGame = () => {
     clouds.style.opacity = "1";
 }
 
+
 const jump = () => {
     if (gameStarted) {
         mario.classList.add("jump");
@@ -33,7 +34,7 @@ const jump = () => {
 
     const loop = setInterval (() => {
         const pipePosition = pipe.offsetLeft;
-        const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
+        const marioPosition = +window.getComputedStyle(mario).botton.replace("px", "");
 
         if(pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
             pipe.style.animation = "none";

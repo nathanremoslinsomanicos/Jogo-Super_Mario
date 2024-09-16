@@ -1,5 +1,6 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
+const novem = document.querySelector(".nuvem")
 const startButton = document.querySelector(".start");
 const gameOverScream = document.querySelector(".game-over");
 
@@ -18,9 +19,7 @@ const startGame = () => {
     mario.style.opacity = "1";
     pipe.style.opacity = "1";
     clouds.style.opacity = "1";
-
 }
-
 
 const jump = () => {
     if (gameStarted) {

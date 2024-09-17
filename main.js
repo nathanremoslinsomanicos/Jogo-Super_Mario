@@ -1,8 +1,8 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
-const novem = document.querySelector(".nuvem");
+const nuvem = document.querySelector(".nuvem");
 const startButton = document.querySelector(".start");
-const gameOverScream = document.querySelector(".game-over");
+const gameOverScreen = document.querySelector(".game-over");
 
 audioStart = new Audio("./sound/audio_theme.mp3");
 const gameOverSound = new Audio("./sound/audio_gameover.mp3");
@@ -18,7 +18,7 @@ const startGame = () => {
     startButton.style.display = "none";
     mario.style.opacity = "1";
     pipe.style.opacity = "1";
-    clouds.style.opacity = "1";
+    nuvem.style.opacity = "1";
 }
 
 
@@ -34,7 +34,7 @@ const jump = () => {
 
     const loop = setInterval (() => {
         const pipePosition = pipe.offsetLeft;
-        const marioPosition = +window.getComputedStyle(mario).button.replace("px", "");
+        const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
 
         if(pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
             pipe.style.animation = "none";
@@ -59,7 +59,7 @@ const jump = () => {
         
 document.addEventListener("keydown", jump);
  
-const restaryGame = () => {
+const restartGame = () => {
 
-    window.location.reloud();
+    window.location.reload();
 }

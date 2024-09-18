@@ -65,7 +65,7 @@ const updateScore = () => {
               updateScore();
               pipe.style.left = '';
             }
-},10);
+}, 10);
         
 document.addEventListener("keydown", jump);
  

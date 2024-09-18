@@ -36,7 +36,7 @@ const jump = () => {
 }
 
 const updateScore = () => {
-    score += 1;
+    score = 1;
     scoreElement.textContent = score;
 }
 

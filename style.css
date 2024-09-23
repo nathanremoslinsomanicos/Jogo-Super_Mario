@@ -37,7 +37,7 @@
 
 .nuvem {
     position: absolute;
-    width: 1000px;
+    width: 200px;
     animation: clouds-animation 20s infinite linear;
 }
 

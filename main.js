@@ -36,7 +36,7 @@ const jump = () => {
 }
 
 const updateScore = () => {
-    score += 7;
+    score += 4;
     scoreElement.textContent = score;
     const animationSpeed = 1.5/ (1 + score/ 500);
     pipe.style.animation = `pipe-animation ${animationSpeed}s infinite linear`;

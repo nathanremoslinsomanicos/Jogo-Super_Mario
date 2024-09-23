@@ -7,7 +7,7 @@ const scoreElement = document.querySelector(".score");
 
 
 audioStart = new Audio("./sound/invencible.mp3");
-const gameOverSound = new Audio("./sound/audio_gameover.mp3");
+const gameOverSound = new Audio("./sound/audio_theme.mp3");
 
 let gameStarted = false;
 let score = 0;

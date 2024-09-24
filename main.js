@@ -6,7 +6,7 @@ const gameOverScreen = document.querySelector(".game-over");
 const scoreElement = document.querySelector(".score");
 
 
-audioStart = new Audio("./sound/invencible.mp3");
+audioStart = new Audio("./sound/videoplayback.mp3.m4a");
 const gameOverSound = new Audio("./sound/fim_de_jogo.mp3.mp3");
 
 let gameStarted = false;
